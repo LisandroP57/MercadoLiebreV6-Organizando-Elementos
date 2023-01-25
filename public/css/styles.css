@@ -127,6 +127,8 @@ main article:hover {
 }
 
 .description {
+    font-size: var(--descripcion);
+    color: var(--gris-oscuro);
     opacity: 0;
     transition: 1s;
 }
@@ -165,13 +167,6 @@ main article:hover {
         justify-content:space-evenly;
         width: 50%;
     }
-
-    .description {
-        display: flex;
-        font-size: var(--descripcion);
-        color: var(--gris-oscuro);
-    }
-
 
     .article-carousel {
         flex-wrap: wrap;

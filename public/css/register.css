@@ -1,23 +1,26 @@
-.main-register {
+.main_register {
     margin: 0 auto;
+    max-width: 70%;
+    display: flex;
+    justify-content: center; 
 }
 
 .form-register {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 50%;
+    padding: 0.6rem;
 }
 
 .box-form {
     margin: 1rem 0rem;
-    padding: 0.6rem;
 }
 
 .box-form input{
     border: none;
     border-radius: 0.4rem;
     padding: 0.6rem;
-    width: 30rem;
+    width: 100%;
     font-size: 0.9rem;
 }
 
@@ -27,9 +30,22 @@ main form p {
 }
 
 .perfil {
-    margin: 1.2rem 0;
+    margin: 1.2rem 0 2rem 0;
 }
 
-.perfil input{
-    margin-left: 3rem;
+.perfil input, label{
+    margin-right: 2rem;
+}
+
+.options {
+    margin: 1rem 0;
+}
+
+.options input {
+    margin-right: 1rem;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
 }
