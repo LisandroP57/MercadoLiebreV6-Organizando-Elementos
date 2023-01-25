@@ -1,0 +1,40 @@
+/* Footer */
+footer {
+    padding: 50px 10px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer article {
+    text-align: center;
+    margin-bottom: 50px;
+    width: 33%;
+}
+
+footer article i {
+    font-size: 32px;
+    color: var(--celeste);
+    margin-bottom: 10px;
+    transition: 1s;
+}
+
+footer article i:hover {
+    color: rgb(4, 147, 16);
+}
+
+footer article h4 {
+    color:var(--gris-oscuro);
+}
+
+footer article p {
+    color: var(--gris-oscuro);
+    font-size: var(--parrafos);
+}
+
+
+footer span {
+    font-size: var(--parrafos);
+    color: var(--gris-oscuro);
+}
