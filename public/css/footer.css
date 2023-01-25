@@ -2,6 +2,9 @@
 footer {
     padding: 50px 10px 10px;
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 footer article {
